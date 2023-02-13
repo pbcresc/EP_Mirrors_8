@@ -1,6 +1,8 @@
 # EP_Mirrors_8
 
-下载脚本：
+- 下载脚本：
+
+```bash  
 #!/bin/sh
 mkdir md5sum
 touch error.log
@@ -14,6 +16,10 @@ echo "Error: file Extension_Installer.tar.gz$num md5 different whith md5sum/Exte
 fi
 done
 cat error.log
+```
 
-解压命令：
+- 解压命令：
+
+```bash 
 cat Extension_Installer.tar.gz* | tar -xvzf -
+```
